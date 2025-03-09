@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+    
+    {% block header %}
+    <h1>Game Suggester App</h1>
+    {% endblock %}
+    
+    {% block content %}
+    <form action="/submit" method="post">
+        <label for="gameInput">Enter a game name:</label>
+        <input type="text" id="game_input" name="game_input" required>
+        <button type="submit">Submit</button>
+    </form>
+    {% endblock %}

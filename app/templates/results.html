@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+    
+    {% block header %}
+    <h1>Game Suggester App</h1>
+    {% endblock %}
+    
+    {% block content %}
+    <ul>
+        {% for game in games %}
+            <li><a href="{{ game.moby_url }}">{{ game.title }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endblock %}

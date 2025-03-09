@@ -1,0 +1,504 @@
+{
+    "groups": [
+        {
+            "group_description": "Monkey Island is a series of comedy adventure games set in fictional 18th century-like Caribbean Islands, telling the story of the young wannabe-pirate Guybrush Threepwood. The series was originally envisioned as a trilogy by the main designer Ron Gilbert, but he only completed the first two games; the third and the fourth were made without his participation. The latter signified the conclusion of the original series, being the last one developed by LucasArts.\n\nLike most LucasArts adventures, Monkey Island games are \"death-free\" (the player character cannot die), have no \"dead ends\" (the player cannot get irrevocably stuck), and are based on inventory puzzles and branching dialogue. The series' first installment, The Secret of Monkey Island (1990), was also the first adventure game made by LucasArts that answered all of the above requirements, defining the company's adventure game design philosophy.\n\nIn 2009, Telltale licensed the property for a five-part episodic adventure game, which eventually became Tales of Monkey Island.\n\nAwards\n\n\n\nComputer Gaming World\n\n\nNovember 1996 (15th anniversary issue) – #3 Most Memorable Game Hero (Guybrush Threepwood)\n\nNovember 1996 (15th anniversary issue) – #10 Most Memorable Game Villain (LeChuck)\n\n\n",
+            "group_id": 1,
+            "group_name": "Monkey Island series"
+        },
+        {
+            "group_description": "Games based on the writings of H. P. Lovecraft. These tend to concern themselves mostly with the stories forming the basis for what has become known as the \"Cthulhu mythos.\" (Lovecraft himself never used the term.)\n\nGenerally made on license from Chaosium, though the pervasive influence of Lovecraft on modern horror writers means there's significant leeway in what to call \"inspired by Lovecraft\" or not.",
+            "group_id": 2,
+            "group_name": "Inspiration: Author - H. P. Lovecraft"
+        },
+        {
+            "group_description": "A series of graphical fantasy adventure games featuring the escapades of King Graham and his royal family, rulers of the fairy-tale land of Daventry. It was originally designed by Roberta Williams and developed by Sierra On-Line, Inc.\nKing's Quest is Sierra's longest-running and largest adventure game series. The first game (1984) is widely regarded as the progenitor of third-person perspective adventures; it combined text input with physical character navigation in a graphically represented world. Like other adventure game series made by the same company, King's Quest switched to icon-based, point-and-click interface in the fifth installment.\n\nDespite its position as the company's flagship adventure series, King's Quest ended the principal phase of its existence with an action/adventure hybrid (1998). Afterwards, the series shared the fate of most adventure game franchises - it was effectively terminated, until interest in it was somewhat renewed, following the appearance of several fan-made remakes of its first installments. An episodic adventure game entitled The Silver Lining (2010) attempted to restore the series, continuing its overarching plot.\n\nRelated Links\n\n\n\nKQ Omnipedia - An extensive wiki about the series.\n",
+            "group_id": 3,
+            "group_name": "King's Quest series"
+        },
+        {
+            "group_description": "Space Quest is a series of comedy adventure games developed by Sierra. The games are set in a sci-fi environment and feature the reluctant hero Roger Wilco, a janitor who initially works on one of the space stations and repeatedly saves the galaxy (often by accident), following his motto \"for truth, justice, and really clean floors\". \n\nThe series was conceived by Mark Crowe and Scott Murphy, \"two guys from Andromeda\", according to their self-designation in Space Quest III: The Pirates of Pestulon. Humorous content includes, among others, many parodies and references to famous movie franchises, most notably Star Wars.\n\nGameplay-wise, the games in the series follow traditional templates Sierra was using for its other adventure games. Early games were particularly notable for placing the main character's life in constant danger, rewarding the player with amusing death scenes and messages in case of failure. Later Space Quest installments concentrated more on puzzle-solving. \n\nThe series ended with Space Quest 6: Roger Wilco in the Spinal Frontier (1995). A few attempts to continue the series were made, including a sequel announced by Sierra in 1996, named Space Quest VII: Return to Roman Numerals. In 2002, a game entitled simply Space Quest begun development by Escape Factory for a release on the Xbox console. None of these sequels were ever completed. The unofficial sequel Space Quest VII was \nin development between 2001 and 2009. It was cancelled after intervention by the copyright holder Vivendi.\n\nAwards\n\n\n\nComputer Gaming World\n\n\nNovember 1996 (15th anniversary issue) – #5 Most Memorable Game Hero (Roger Wilco)\n\n\n",
+            "group_id": 4,
+            "group_name": "Space Quest series"
+        },
+        {
+            "group_description": "In the early 1990s, Sierra got the idea to remake several of their series-starting titles with their newest development system.  The results were games with the same storyline, but better graphics and sound.",
+            "group_id": 5,
+            "group_name": "Sierra remakes"
+        },
+        {
+            "group_description": "A series of comedy games (primarily in adventure genre), originally created by Al Lowe, focusing mostly on the efforts of a middle-aged gentleman named Larry Laffer (and later, his nephew) to have a date with a girl, and maybe also to find the love of his life.\n\nThe series started its existence with Leisure Suit Larry in the Land of the Lounge Lizards (1987), though its early precursor, a text adventure named Softporn (1981), is often indicated as the progenitor. Chronologically falling in line with various Quest game series developed by Sierra (such as King's Quest and Space Quest), Larry games followed a similar gameplay evolution: starting with text input (and a text parser that \"understood\" swear words and verbs denoting sexual activities), the series later switched to mouse-driven, point-and-click gameplay with command icons - including the famous \"zipper\" icon, unique to the series, which corresponded to the aforementioned text input peculiarities.\n\nThe last Larry game designed by Al Lowe was Love for Sail (1996). The series' classical epoch has come to its end in this installment; however, an attempt to revive the series, steering it into action/arcade, mini-games-based gameplay, was made in 2004 with the release of Magna Cum Laude.\n\nNot included: the 1992 Laffer Utilities, a humorous suite of \"non-productivity\" applications.\n\nLeisure Suit Larry 4\n\nThe Larry series was originally planned as a trilogy. If you saw the ending of the third game, you know that it’s well-rounded and final. When designer Al Lowe had finished Larry 3 in 1989, he was somewhat fed up with his creation, and announced that there’d “never be a Larry 4!”\n\nAt least not a “normal” adventure game. In 1989, Sierra had ambitious plans to build up an online gaming community. Nobody knew if this would work, but it was clear that it needed a “killer application”; an online adventure game with a score of players working together simultaneously. That’s what Larry 4 was supposed to be. However, the project turned out to be much more complicated than anyone had expected. As Al Lowe describes on his website:\n\n&gt; After a month or so, we knew we were in trouble. I decided to write a checkers game as a simple test case to see if we could actually move objects and communicate. It worked. But we were still a long way from making characters walk and communicate and interact.\n&gt; \n&gt; So I wrote a backgammon game. Then chess. Still we had no system to support all the features needed for an adventure game. But we were having so much fun playing against each other, we decided to push what we had into a real product. It became The Sierra Network. TSN was quite successful in its day, especially considering the small numbers of players who also had modems.\n&gt; \n&gt; Eventually, when TSN was losing 10 million dollars per year, Ken [Williams] sold half of it to AT&amp;T for 50 million dollars. I laughingly said Sierra was the only company to make money in on-line gaming: by selling out! Later AT&amp;T would pay another 50 mil for the other half. They then sat on it for about a year before giving up and selling the whole thing to America On-Line for 10 million. AOL announced big plans, but never carried through and the whole thing withered up and died without ever seeing the light of day.\n\nWhen Al Lowe finally decided that the Larry series needed to be continued, and started to work on the next off-line episode, he was reluctant to call it Larry 4. Hadn’t he exclaimed that there wouldn’t be a game with that name? He kept his promise. The next adventure was a \"fifth\" game.\n\nEven though the 4th episode does not exist, it has an official name nevertheless: Leisure Suit Larry 4: The Missing Floppies’.\n\nRelated links\n\n\n\nLeisure Suit Larry series (Wikipedia)\n\nTwo Decades of Leisure Suit Larry (1UP.com, 10th August 2007)\n\n\nInformation also contributed by\n-Chris",
+            "group_id": 6,
+            "group_name": "Leisure Suit Larry series"
+        },
+        {
+            "group_description": null,
+            "group_id": 7,
+            "group_name": "Thexder series"
+        },
+        {
+            "group_description": "The Police Quest series are traditional adventure games developed by Sierra, which follow the adventures of Sonny Bonds, a police officer in the fictional city of Lytton, California. The first three games were designed under the supervision of former Highway Patrol officer Jim Walls.\n\nThe last game in the series is a departure from the first three, and follows a murder investigation in real-life Los Angeles, led by detective John Carey. Jim Walls was replaced by former LAPD Chief Daryl F. Gates. The adventure games were discontinued after the fourth game, but Sierra continued to publish \"police simulators\" under the brand name SWAT.",
+            "group_id": 8,
+            "group_name": "Police Quest series"
+        },
+        {
+            "group_description": "In the MechWarrior games the player is a MechWarrior, a pilot of a Mech (a humanoid battle machine with the weight up to 100 tons). The player is responsible for equipping his Mech with weapons, armor and equipment before entering the battlefield. On the battlefield, the player fights tanks, aeroplanes and other Mechs. Most of the usable weapons produce heat, which will be reduced by time. If a Mech has too much heat, the Mech will be shut down (or explodes, if the heat reaches a too high value).\n\nIn the later games of this game group, the player has to \"organise\" (steal, capture or buy) the materials he wishes to use in combat. Allies and battlefield repairs are available in the later games, too. \n\nOrigins\n\nThis series of games is based on the pen &amp; paper game MechWarrior, a part of FASA's Battletech universe. Instead of piloting Mechs like the basic BattleTech board game, players created specific characters like spies, pilots, commandos, etc. and developed them on a collection of adventures in classic D&amp;D fashion.\n\nInformation also contributed by Zovni.",
+            "group_id": 9,
+            "group_name": "MechWarrior series"
+        },
+        {
+            "group_description": "Games that are based on the official licensed FASA BattleTech Universe.",
+            "group_id": 10,
+            "group_name": "BattleTech universe"
+        },
+        {
+            "group_description": "Infocom attempted to branch out of Interactive Fiction in the late 1980s, and, under the ownership of Activision, they published two BattleTech games developed by Westwood.",
+            "group_id": 11,
+            "group_name": "Infocom / Activision BattleTech series"
+        },
+        {
+            "group_description": "Games in id Software's 3D first-person-shooter series, Quake, sporadically recounting the ongoing saga of Earth's war against the Stroggs.\n\nAwards\n\n\n\nPC Gamer\n\n\nOctober 2001 – #17 in the \"Top 50 Best Games of All Time\" list (for the whole series)\n\n\n\n\nInformation also contributed by\nEntorphane\n\nRelated Game Group(s)\n\n\n\nUnofficial add-ons for Quake games\n",
+            "group_id": 12,
+            "group_name": "Quake series"
+        },
+        {
+            "group_description": "All Test Drive arcade-style racing games and their add-on products.\n\nIn November 2007, when Atari announced to exit the game development business to concentrate solely on publishing and distribution, the Test Drive franchise was sold to parent company Infogrames for $5 million, granting six-year rights to produce the games.\n\nCancelled game\n\nWhile Test Drive: Cycles came out for the Gameboy Color, a game with the same title was in the works for PlayStation, Dreamcast and Windows but was cancelled.",
+            "group_id": 13,
+            "group_name": "Test Drive series and add-ons"
+        },
+        {
+            "group_description": null,
+            "group_id": 15,
+            "group_name": "TopWare Earth series"
+        },
+        {
+            "group_description": "Age of Empires is a real-time strategy (RTS) franchise originally developed by Ensemble Studios, briefly picked up by Hidden Path Entertainment and Skybox Labs, and further handled by Forgotten Empires and World's Edge.\n\nThe games in this series have a relatively slower pace to most other RTS titles, with detailed economic and technology systems (including the concept of advancing to the next age with newer and better units and upgrades). While the first two titles, and later the fourth, are based on historical figures, the third used fictional characters in historical settings. The Age of Mythology spin-off maintained largely the same gameplay, but used a mythological setting of multiple classical civilizations.",
+            "group_id": 16,
+            "group_name": "Age of Empires series"
+        },
+        {
+            "group_description": "Games based on the Frank Herbert novels of the same name.\n\nCancelled Atari 2600 game\n\nAtari began (and then terminated) development on a Dune game in 1984 for a film tie-in on the VCS (Atari 2600). Only an early prototype has surfaced, revealing a game not dissimilar to Warren Robinett's Adventure for the 2600.",
+            "group_id": 17,
+            "group_name": "Dune universe"
+        },
+        {
+            "group_description": "Games based off of (and including) Atari's original Battlezone arcade game.",
+            "group_id": 18,
+            "group_name": "Battlezone series"
+        },
+        {
+            "group_description": "This group includes all games set in the fictional futuristic universe shared, among others, by Earthsiege, Starsiege, and Tribes games. The first game set in this universe was Metaltech: Earthsiege (1994). The games set in this universe belong to different genres, most prominently battlemech vehicle simulations and first-person shooters. All the games feature battlemechs as a key gameplay element.\n\nThe overarching background story of the series begin in the year 2471, when the scientist Solomon Petresun invented the first \"cybrid\", bio-cybernetic artificial intelligence known as Prometheus, and extends to the 40th century. The cybrids were mass-produced and used as slaves for humanity; however, under the leadership of Prometheus, they rebelled against the humans, which led to a global war, during which the very existence of the Earth was threatened. To counter that, Petresun, who became technically immortal, proclaimed himself the Emperor of Mankind, uniting the Terran forces to combat the cybrids. However, human colonies on other planets were ruthlessly exploited by the Empire, which led to their resistance. The Great Human Empire eventually expanded beyond the Solar System, in constant struggle against outcasts which, in their turn, divided into several Tribes fighting for dominance.",
+            "group_id": 19,
+            "group_name": "Metaltech / Tribes universe"
+        },
+        {
+            "group_description": "Space flight and combat simulation series developed by ORIGIN Systems, Inc. set around the military conflicts between Earth and other space-faring races, notably the feline Kilrathi, in the far future.\n\nAwards\n\n\n\nComputer Gaming World\n\n\nNovember 1996 (15th anniversary issue) – Most Memorable Game Hero (Colonel Blair)\n\nNovember 1996 (15th anniversary issue) – #6 Most Memorable Game Villain (Prince Thrakhath)\n\n\n\nPC Powerplay (Germany)\n\n\nIssue 06/2005 - #7 Likeable Secondary Character (for Hobbes)\n\n\n",
+            "group_id": 20,
+            "group_name": "Wing Commander series"
+        },
+        {
+            "group_description": "Games that are based on the Wing Commander universe but are not directly part of the Wing Commander series timeline.",
+            "group_id": 21,
+            "group_name": "Wing Commander spin-offs"
+        },
+        {
+            "group_description": "All games from the  Sid Meier's Civilization series and its spin-offs.\n\nRelated links\n\n\n\nEmpire Building, One Turn at a Time - A brief overview and history of the series by Apple Games.\n\nThe History of Civilization - An in-depth feature article on GameDeveloper (ex-Gamasutra) about the history and development of the series and the developer's responsible for it (18 July 2007).\n\nCivFanatics - A very active Civilization community\n\n\nAwards\n\n\n\nGameSpy\n\n\n2012 – #6 Top PC Gaming Intro (for the whole series)\n\n\n\n\nSub-groups\n\n\n\nUnofficial add-ons for Civilization series\n",
+            "group_id": 22,
+            "group_name": "Sid Meier's Civilization series"
+        },
+        {
+            "group_description": "Games based off of Frederik Pohl's Gateway series of novels.",
+            "group_id": 23,
+            "group_name": "Frederik Pohl's Gateway series"
+        },
+        {
+            "group_description": null,
+            "group_id": 24,
+            "group_name": "Epic Pinball series"
+        },
+        {
+            "group_description": "Electronic Arts published some pioneering games under the \"Construction Set\" title and metaphor, which not only allowed you to play them right out of the box, but also build your own games.",
+            "group_id": 25,
+            "group_name": "Electronic Arts' \"Construction Set\" series"
+        },
+        {
+            "group_description": "A series of simulation/strategy games designed by Chris Crawford where the player takes the control over factors that influence earth and humanity the most. Balance of Power (and the updated 1990 Edition) deal with politics and in Balance of the Planet the player is in charge of the ecological system itself.",
+            "group_id": 26,
+            "group_name": "Balance of Power series"
+        },
+        {
+            "group_description": "Parent Group\n* Star Wars Licensees\n\nA series of space combat simulation games set in the Star Wars universe (episodes 4, 5, and 6) in which players pilot various starfighters on either side of the Rebel Alliance/Empire conflict.",
+            "group_id": 27,
+            "group_name": "Star Wars X-Wing / TIE Fighter series"
+        },
+        {
+            "group_description": null,
+            "group_id": 28,
+            "group_name": "Railroad Tycoon series"
+        },
+        {
+            "group_description": "All games that are part of the Lucasfilm/Lawrence Holland WWII air combat trilogy of the late 1980s and early 1990s.",
+            "group_id": 29,
+            "group_name": "Lucasfilm WWII Air Combat trilogy"
+        },
+        {
+            "group_description": "Game and add-ons for Lucasarts' Secret Weapons of the Luftwaffe - plus the 'spiritual sequel' Secret Weapons over Normandy.",
+            "group_id": 30,
+            "group_name": "Secret Weapons series"
+        },
+        {
+            "group_description": "A series of adventure games set in a post-apocalyptic world with elements of a detective film noir setting, starring the private investigator Tex Murphy. The games were developed by Access Software and designed by Chris Jones, who also played the titular character in all the installments of the series that featured live actors.\n\nThe setting in all the games is the city of San Francisco in the fourth decade of the 21st century. Following the Third World War, much of the city has been damaged or destroyed; many of the surviving humans, exposed to radiation, have turned into mutants. During the series' timeline, non-mutated humans (called Norms) co-exist with mutants. The titular protagonist is a \"hard-boiled\" P.I. with relationship and drinking problems; lonely, observant, and witty, Tex Murphy recreates the classic film noir detective type in the unusual post-apocalyptic scenario.\n\nThe gameplay in all Tex Murphy games is based on conversations, interrogations, searching for clues, as well as inventory-based and other types of puzzles. Later installments emphasized the puzzle-solving aspect, introducing increasingly complex puzzles; they also featured in-game hint systems and the possibility to have the puzzles solved automatically at the expense of points.\n\nFrom a technological point of view, Tex Murphy games have made some significant contributions. The series' first installment, Mean Streets (1989), was among the earliest games to implement VGA graphics and the so-called RealSound technology that allowed the PC speaker to reproduce digitized sound effects and voice samples, as well as one of the first adventure games to offer an open 3D world to explore. Under a Killing Moon (1994) was the first adventure game with high-resolution, texture-mapped 3D graphics, and relied on extended full-motion movie cutscenes with live actors. Overseer (1997) was the first game developed to take advantage of DVD-ROM technology. \n\nIn 2012, Big Finish Games, a developer founded by former Access Software employees, announced the development of the long-awaited sixth game in the series under the working title \"Project Fedora.\" \n\nRelated links:\n\n\n\nThe Unofficial Tex Murphy Website (fan site)\n\nWikipedia: Tex Murphy (article in the open encyclopedia)\n",
+            "group_id": 31,
+            "group_name": "Tex Murphy series"
+        },
+        {
+            "group_description": "Commander Keen is a series of platform games developed by id Software. The protagonist of these games is an eight-year-old boy named Billy Blaze (his official name is William Joseph Blazkowicz). He is a genius who has built a spaceship called Bean-with-Bacon Megarocket from old soup cans. Throughout the series, he assumes the persona of Commander Keen, a football helmet-donning defender of the Earth who must thwart the world-dominating plans of his school rival Mortimer McMire. This often involves traveling to different planets and other hostile environments, and fighting aliens and other enemies.\n\nGameplay-wise, the series' defining features are Billy's ray gun with limited ammunition (which he uses to stun enemies permanently), and his pogo stick, which is used to jump twice as high. The games feature top-down overworld areas that connect between platforming stages, often allowing the player to explore them in a different order. Earlier games could only be saved in the overworld; the second trilogy, starting with Secret of the Oracle (1991), makes it possible to save anywhere and introduces several graphical and gameplay-related enhancements.",
+            "group_id": 32,
+            "group_name": "Commander Keen series"
+        },
+        {
+            "group_description": "Simtex / Quicksilver sci-fi 4X game series dealing with the spread and security of various competing alien races in a finite cosmos.",
+            "group_id": 33,
+            "group_name": "Master of Orion series"
+        },
+        {
+            "group_description": "Prince of Persia is a long-running series of action games with predominantly platform-oriented gameplay and puzzle-solving elements. The games are set in a fantasy version of Persia of an unspecified time period, though their stylistic elements reminiscent of the Arabian Nights tales indicate the Islamic Age. The protagonist is invariably the titular character; however, it is not entirely clear whether the Prince starring in each one of the games is the same person or not. Early Prince of Persia installments were designed by Jordan Mechner and developed by Brøderbund. Prince of Persia: The Sands of Time (2003), developed by Ubisoft Montreal, started its own overarching storyline featuring a distinct recurrent protagonist. \n\nThe original Prince of Persia (1989) has had a considerable influence on the development of the platformer genre, contributing to the rise of cinematic platformers, in which the \"jump-and-run\" mechanics, common to the genre at that time, gave way to exploration, challenging combat, interaction with the environment, and puzzle-solving elements. The sequels emphasized and enhanced these features, in particular The Sands of Time, which introduced a re-designed gameplay system. The Prince relied on acrobatic manoeuvres to traverse the many hazards placed on his way; environmental puzzle-solving was given more attention. The Dagger of Time system has been carried over to subsequent games; it involved reversing time in order to re-gain another chance at tackling a difficult situation.",
+            "group_id": 34,
+            "group_name": "Prince of Persia series"
+        },
+        {
+            "group_description": "Quest for Glory is a series of role-playing/adventure hybrids originally published and developed by Sierra. \n\nThe player takes on the role of a curly blond would-be hero, seeking fame and fortune in a fantasy world, imitating various countries and cultures, such as medieval Germany in Quest for Glory I: So You Want To Be A Hero, the Middle East in Quest for Glory II: Trial by Fire, Africa in Quest for Glory III: Wages of War, Eastern Europe in Quest for Glory IV, and finally ancient Greece in Quest for Glory V: Dragon Fire. Character may be imported from earlier versions to later versions of the game.\n\nGameplay\n\nThe gameplay in all the installments is a combination of traditional Sierra-style adventure and RPG. Visual style, navigation, and interface are identical to those of the adventure games that Sierra was developing parallel to the course of the series. Inventory-based puzzles, though less numerous, resembled the tasks introduced in other adventures. However, much of the gameplay's challenge also revolved around character development and combat. Battle systems in the series ranged from real-time fights, in which the player chose the desired actions (attacking, parrying, casting a spell, etc.), to side-scrolling action in the fourth game, and finally \"hack-and-slash\" action combat in the fifth.\n\nRole-Playing System\n\nThe series originally introduced three classes: the Fighter, Magic-User, and the Thief. The character usually has to join a particular guild which in effect offers different plots in accordance to the class used by the player. In Quest for Glory II: Trial by Fire the Paladin class was officially introduced and has since become the permanent fourth class. As expected in role-playing games, the character comes with a set of attributes and skills which may be increased by repeating certain actions. Many tasks and puzzles in the games can be solved in different ways, depending on the class the player has chosen.\n\nTrivia\n\nThe series was originally entitled Hero's Quest. Its name was consequently changed due to intellectual property concerns with an already existing board game: Hero Quest, also adapted into a computer game series.",
+            "group_id": 35,
+            "group_name": "Quest for Glory series"
+        },
+        {
+            "group_description": "Atomic Games' suite of World War II battle simulations in a tabletop wargaming vein for Three-Sixty Pacific.\n\nContinued in World at War series released by Avalon Hill.",
+            "group_id": 36,
+            "group_name": "V for Victory series"
+        },
+        {
+            "group_description": "This group includes games set in the fictional Zork universe, starting with the text adventure Mainframe Zork (1977), developed by the students who would soon form Infocom. The aforementioned Empire is a vast subterranean complex with predominantly medieval fantasy elements. A complete chronology of this fictional realm has been provided by the authors; each game within the Zork universe is therefore set during a concrete pseudo-historical epoch. The games feature eccentric characters and objects, and are generally known for their humorous tone. Most games in the Zork universe are puzzle-solving text- or graphical adventures. The protagonists of the games are often nameless and speechless, representing the actual player on a journey through a magical world. \n\nGames in the Zork universe are divided into distinct sub-series. The first of those is the original trilogy of text adventures, which ended with Zork III: The Dungeon Master (1982). These games were followed by the Enchanter series, starting with Enchanter (1983) and ending with Spellbreaker (1985). Though set in the same universe, Enchanter games had a different overarching storyline of their own, and featured a different protagonist. The side-stories Beyond Zork: The Coconut of Quendor (1987) and Zork Zero: The Revenge of Megaboz (1988) continued the text adventure formula, adding role-playing and/or graphical elements.\n\nAfterwards, the series entered a six-year hiatus, which was broken by a final trilogy, opening with Return to Zork (1993), the first fully graphical Zork adventure, which also featured live actors. It was followed by Zork Nemesis: The Forbidden Land (1996), with darker themes and gameplay system influenced by Myst, and eventually Zork: Grand Inquisitor (1997), the final installment of the main series (along with which ZTUU was released for free as a promotional giveaway, the final official Zork text-only game, released a decade after the most recent.)\n\nThe text adventure Wishbringer (1985) occupies an uncertain position within the universe, as only a few ties connect it to Zork games. The ZorkQuest games are \"interactive comic\" spin-offs, part of the InfoComics series, with similarly tenuous ties to the series canon. Also spin-off-y, Zork: the Cavern of Doom, though penned by an Implementor, presents a very different approach to the game world, with Choose-Your-Own-Adventure gameplay (befitting its original release as one of four print-and-paper Zork gamebooks.)\n\nBy the time the third graphical Zork adventure had come and gone, amateur homebrew text adventure authors had begun devising interactive fanfic homages to Infocom's then-recently-decoded Z-machine. Zork: A Troll's Eye View is as good an example of these as any. For nearly a decade, they would be the only activity of the dormant Zork brand. Then, in 2009, Activision officially licensed the name and fantasy-humour setting to Jolt Online Gaming, for their short-lived browser casual game Legends of Zork, which ran for just over two years before returning to live on solely as a legend.\n\nTrivia\n\nThe original Zork trilogy inspired a fantasy novel that bore the Infocom logo. It was called The Zork Chronicles, and was written by Georg Alec Effinger, a past winner of both the Hugo and Nebula Awards. The book was published by Avon books in July, 1990.\n\nRelated External Links\n\n\n\nThe History of Zork by Tim Anderson\n\n\nInformation also contributed by\nJacqke",
+            "group_id": 37,
+            "group_name": "Zork universe"
+        },
+        {
+            "group_description": "Includes all Chessmaster games in the series, including early numbering and title alterations such as The Fidelity Chessmaster 2100.",
+            "group_id": 38,
+            "group_name": "Chessmaster series"
+        },
+        {
+            "group_description": "This game group contains games created by members of the Cinemaware development team. Games in this group are either:1. Direct Cinemaware products,\n2. Were created by most of the same people and marketed under a different company name, or\n3. Were created by many of the same people and have\nthe same \"flavor\" (appearance, graphics, gameplay, etc.)\n\nGames that were merely marketed under the Cinemaware label but were not directly produced by the core Cinemaware developers (ie The Kristal, etc.) are not in this list.",
+            "group_id": 39,
+            "group_name": "Cinemaware-style games"
+        },
+        {
+            "group_description": "Infocom's follow-up series to Zork (set in the same game world, during the Age of Magic), following the ascent of the player, a member of the Circle of Enchanters, in a series of conflicts whose resolutions maintain a focus on the use and abuse of spellcasting.",
+            "group_id": 40,
+            "group_name": "Infocom Enchanter series"
+        },
+        {
+            "group_description": "Toys for Bob and Accolade's epic strategic and tactical SF series, exploring the endless nuances of extra-terrestrial gunboat diplomacy between the warships of member races of the Alliance of Free Stars and the Hierarchy of Battle Thralls.\n\nTrivia\n\nCancelled game\n\nA game titled Starcon, which was to be the fourth game in the Star Control series, was cancelled in 1998. It was being made for both PC and PlayStation. It was going to be a straightforward space combat game unlike the earlier games in the series.",
+            "group_id": 41,
+            "group_name": "Star Control series"
+        },
+        {
+            "group_description": "A series of hockey games carrying either a NHL or NHLPA license from Electronic Arts Inc..",
+            "group_id": 42,
+            "group_name": "EA Sports NHL series"
+        },
+        {
+            "group_description": null,
+            "group_id": 43,
+            "group_name": "Sid Meier's Pirates! series"
+        },
+        {
+            "group_description": "Real-time strategy games inspired by Sun Tzu's book, Art of War.",
+            "group_id": 44,
+            "group_name": "Ancient Art of War series"
+        },
+        {
+            "group_description": "Any game based on the fundamental \"turret vs. airborne infantry\" game premise popularly employed by Paratrooper (and the earlier Sabotage).  Paratrooper games usually identify the player acting as a fixed gun turret (machine gun or similar devices) shooting at wide but limited vertical angle against incoming enemies: Paratroopers, Helicopters, Bomber planes, etc.\n\nThe most unique feature is the paratrooper enemy (which parachutes in numerous numbers), which if successfully landing behind friendly lines in specific numbers, will create a human ladder and blow up the player's gun turret.",
+            "group_id": 45,
+            "group_name": "Sabotage / Paratrooper variants"
+        },
+        {
+            "group_description": "Covers all official Wolfenstein series and licenses, from the first release originally created by Silas S. Warner, through popular iterations by id Software to modern titles by MachineGames.\n\nRelated Game Groups\n\n\n\nCastle Wolfenstein fangames\n\nSpear of Destiny series\n\nUnofficial add-ons for Castle Wolfenstein series\n\nWorld War II genre\n",
+            "group_id": 46,
+            "group_name": "Castle Wolfenstein series"
+        },
+        {
+            "group_description": "Includes all titles based off of (and including) the original \"Where in the world is Carmen Sandiego\" educational series.",
+            "group_id": 47,
+            "group_name": "Carmen Sandiego series"
+        },
+        {
+            "group_description": "Coined by Maxis with SimCity in 1989, this group contains any game by the company that bears the Sim prefix. Sim- games are mostly managerial simulations.\n\nMaxis was acquired by Electronic Arts in the late 1990s, and due to the success of the series, especially with The Sims, EA created an entire studio/label for the franchise in June 2007: The Sims Studio lead by Rod Humble, before it was decided that Maxis' branding would again be used instead.\n\nSub-groups\n\n\n\nSimAnimals series\n\nSimCity series\n\nSimGolf series\n\nThe Sims franchise / MySims series\n\nSimTower series\n",
+            "group_id": 48,
+            "group_name": "Maxis Sim series"
+        },
+        {
+            "group_description": null,
+            "group_id": 49,
+            "group_name": "Night Mission Pinball versions"
+        },
+        {
+            "group_description": "Any game that contains characters, locations, or situations licensed from the Marvel universe. \n\nIn 2009, The Walt Disney Company acquired Marvel Comics' parent corporation, Marvel Entertainment.\n\nThis includes the Scott Adams Questprobe adventures from the early 1980s, the Paragon titles from the 1990s, and anything else with a Marvel character.\n\nSub-Groups\n\n\n\nBlade licensees\n\nCaptain America licensees\n\nDeadpool licensees\n\nFantastic Four licensees\n\nGhost Rider licensees\n\nHulk licensees\n\nIron Man licensees\n\nMarvel's Avengers licensees\n\nPunisher licensees\n\nSpider-Man licensees\n\nThor licensees\n\nX-Men licensees\n\nScott Adams Questprobe licensees\n\n\nRelated Companies\n\n\n\nMarvel Studios\n\n\nRelated Game Groups\n\n\n\nDC Comics licensees\n\nInspiration: Comics\n\nInspiration: Movies\n\nInspiration: TV cartoons\n\n\nRelated Links\n\n\n\nMarvel official site\n",
+            "group_id": 50,
+            "group_name": "Marvel licensees"
+        },
+        {
+            "group_description": "The game \"Titus the Fox\" was released in more than one version.\n\nTrivia\n\nUnreleased games\n\nBaby Titus aka Titus Jr, for the Game Boy / Game Boy Color.",
+            "group_id": 51,
+            "group_name": "Titus the Fox versions"
+        },
+        {
+            "group_description": "Series of first-person adventure games, set in a world where alien \"Orbs\" rule mankind. The player is a Manhunter employed by the Orbs to investigate the human resistance, but eventually rebels against his masters to rid the Earth of their kind, while also chasing a psychotic murderer.",
+            "group_id": 52,
+            "group_name": "Manhunter series"
+        },
+        {
+            "group_description": "A series of puzzle-solving adventure games, originally designed by Jane Jensen and developed by Sierra. The games feature a recurrent protagonist, a young bookstore owner and aspiring writer from New Orleans named Gabriel Knight. Gabriel discovers that he is a Schattenjäger (German for \"shadow hunter\"), destined to solve supernatural mysteries and confront dark cults and demonic adversaries.\n\nDespite their supernatural elements, Gabriel Knight games contain many historical references, and their stories are based on real studies of the occult. The first game deals with a voodoo cult in New Orleans, providing cultural and social background information for the city. The sequel is set in Munich, Germany; it is dedicated to werewolves, and refers to historical events connected to the city. The third game takes the protagonist to Southern France, where he must unravel a mystery that involves vampires and an alternate history of Christianity.\n\nThe three games of the series are also known for representing the three major graphical styles used by adventure games: the first game is done in hand-painted 2D style, the second uses full-motion videos with real actors and backgrounds composed of photos, and the third is in real-time 3D.\n\nAwards\n\n\n\nComputer Gaming World\n\n\nNovember 1996 (15th anniversary issue) – #2 Most Memorable Game Hero (Gabriel Knight)\n\n\n",
+            "group_id": 53,
+            "group_name": "Gabriel Knight series"
+        },
+        {
+            "group_description": "Antonio Antiochia's trilogy of supernatural gothic horror-themed interactive fiction-with-graphics adventures.",
+            "group_id": 54,
+            "group_name": "Transylvania series"
+        },
+        {
+            "group_description": "This group covers the games related to the Starflight series. A series where the player is to explore space, to find and manage resources to help build an empire while engaging alien races.",
+            "group_id": 55,
+            "group_name": "Starflight series"
+        },
+        {
+            "group_description": null,
+            "group_id": 56,
+            "group_name": "Syndicate series"
+        },
+        {
+            "group_description": null,
+            "group_id": 57,
+            "group_name": "Cannon Fodder series"
+        },
+        {
+            "group_description": null,
+            "group_id": 58,
+            "group_name": "F-15 Strike Eagle series"
+        },
+        {
+            "group_description": null,
+            "group_id": 59,
+            "group_name": "Street Rod series"
+        },
+        {
+            "group_description": "Arguably the longest running PC \"game\" series in existence, this group is for all of the flight simulations created by the Bruce Artwick Organization (and descendants) and marketed by Microsoft. This group is only for official instalments. Please use this group for unofficial add-ons.",
+            "group_id": 60,
+            "group_name": "Microsoft Flight Simulator series"
+        },
+        {
+            "group_description": "Role-playing games based on the \"Riftwar\" adventure novels by Raymond Feist, including all related games and their sequels.",
+            "group_id": 61,
+            "group_name": "Krondor series"
+        },
+        {
+            "group_description": "Graphical adventure games by Sierra in the mystery idiom, featuring the sleuthing of plucky lady protagonist Laura Bow.\n\nAwards\n\n\n\nComputer Gaming World\n\n\nNovember 1996 (15th anniversary issue) – #13 Most Memorable Game Hero (Laura Bow)\n\n\n",
+            "group_id": 62,
+            "group_name": "Laura Bow Mystery series"
+        },
+        {
+            "group_description": "This series of first-person shooters developed by LucasArts and set in the Star Wars universe evolved from Star Wars: Dark Forces (1995); the sequels changed the main sub-title to Jedi Knight and gradually abandoned \"Dark Forces\" as part of their titles. These games have an overarching storyline, and most of them feature a common protagonist, the former Imperial officer Kyle Katarn, turned mercenary and then knight of the New Jedi Order.\n\nThe original Dark Forces was among the first story-driven first-person shooters, featuring cutscenes, mission objectives, and jumping as an important gameplay ability. The sequel, Star Wars: Jedi Knight - Dark Forces II (1997) added an optional third-person view, melee lightsaber combat, and the usage of Jedi Powers, all of which have since become recurrent gameplay elements in the series.\n\nTrivia\n\nAwards\n\n\n\nPC Gamer magazine\n\n\nOctober 2001 issue - 'Dark Forces', as a series, was named #5 of the Top 50 Games of all time\n\n\n\n\nTrivia contributed by\nEntorphane.\n\nParent Group\n\n\n\nStar Wars Licensees\n\n\nSub-Groups\n\n\n\nUnofficial add-ons for Star Wars: Dark Forces / Jedi Knight series\n",
+            "group_id": 63,
+            "group_name": "Star Wars: Dark Forces / Jedi Knight series"
+        },
+        {
+            "group_description": "The brainchild of the Collyer Brothers (Paul and Oliver), Championship Manager became the most popular football (soccer) management series during the 1990s, mostly thanks to the gigantic database that allowed many gamers born in countries outside the leagues usually covered by managing games (England, Spain, Germany, Scotland, Italy and France) the chance to coach their favourite clubs.\n\nIn 2004, Sports Interactive split with Eidos, which allowed Eidos to retain the name, and SI the database (which was used in their fresh new franchise, Football Manager). Development on the franchise was taken over by Beautiful Game Studios.\n\nIn October 2008, Beautiful Game Studios general manager Roy Meredith admitted that the franchise had suffered due to poor quality, and lacked vision and direction since the original team from Sports Interactive had left the series, with a promise to turn that around.\n\nIn December 2008, Championship Manager: Season 01/02 was released as freeware.\n\nOn 2 May 2022, the Championship Manager was sold as one of several franchises from Square Enix (as successors of Eidos) to the Embracer Group.\n\nRelated Links:\n\n\n\nFootball Manager History #1 - Article published on the CM Revolution website describes the early beginnings of Championship Manager series and how it evolved.\n\nFootball Manager History #2 - Second article published on the CM Revolution website continues the Championship Manager history.\n",
+            "group_id": 64,
+            "group_name": "Championship Manager series"
+        },
+        {
+            "group_description": null,
+            "group_id": 65,
+            "group_name": "Leather Goddesses of Phobos series"
+        },
+        {
+            "group_description": "Westwood Studios' long-running series of real-time strategy games (and expansion packs) set in alternate timelines featuring ongoing military conflict. When the company was acquired by Electronic Arts in 1998, it became a brand of EA. It was later picked up by multiple other Electronic Arts subsidiaries, most notably Electronic Arts Pacific and Electronic Arts Los Angeles' RTS division which was made from the former.\n\nCancelled titles\n\nThis series has a large number of titles which were known to be in production, but were cancelled before they could be finished, or even pass the concept stage.\n\n\n\nCommand &amp; Conquer: Renegade 2 - while unannounced, multiple concepts, loose 3D assets, and early video footage exist. Cancelled by 2003, as Battlefield 1942 overshadowed the sales of the original Renegade.\n\nCommand &amp; Conquer: Continuum - also unannounced; MMO set in the Tiberium universe. Cancelled by 2002 in order for staff to assist with Earth &amp; Beyond. Scarce animations survived.\n\nCommand &amp; Conquer 3: Incursion - after the release of Tiberian Sun, Westwood attempted to make a third mainline Tiberium universe game twice. A third project was started by EA Los Angeles soon after the Westwood and EA Pacific merged with it, while Command &amp; Conquer 3: Tiberium Wars from 2007 was actually the fourth attempt at making a game with that title.\n\nTiberium - announced in October 2008 by EA Los Angeles, it was supposed to be a squad first-person shooter set after the Third Tiberium War, and the player controlling GDI officer Ricardo Vega, nephew of a Nod's warlord from Tiberian Sun. After a delay to FY 2010, the game was cancelled by EA for not meeting their standards.\n\nProject Camacho - working title of a first-person tactical shooter in the Generals universe by EA Los Angeles. Cancelled in 2009, but some concepts survived.\n\nCommand &amp; Conquer: Arena - not officially announced; it was in development in 2008/2009 at EA Los Angeles as an experimental multiplayer-only spin-off of Command &amp; Conquer 3 meant for the Asian market. Only select concept art and an unpublished CGI trailer survived, while the developed assets were converted into Command &amp; Conquer 4: Tiberian Twilight (2010) by order of EA.\n\nCommand &amp; Conquer: Battles - project was at least in concept stage around 2010 by EA2D, with mockups using assets from their title AWOL\n\nCommand &amp; Conquer - originally announced as Command &amp; Conquer: Generals 2 in December 2010 by Victory Games, the game was supposed to be the first Generals sequel and use the Frostbite 2 engine (later migrated to Frostbite 3). In 2012, it was announced to move to a free-to-play model and a transfer to a live service system called only Command &amp; Conquer, where Generals 2 content would be the first game of a planned multitude of titles. After several design changes, a prolonged closed alpha stage, the game was cancelled and the studio closed in October 2013 due to internal corporate politics at EA.\n\nmobile port of Command &amp; Conquer: Tiberium Alliances - known to have been in development by late December 2012 - cancelled due to the closure of EA Phenomic in July 2013\n\nCommand &amp; Conquer: Red Alert Alliances - was to be similar to Tiberium Alliances - project bible was made mere days before EA Phenomic was closed in July 2013\n\nuntitled mobile game by Mythic - cancelled in 2014, but the project was unknown until 2018, when its artists used its concepts for their personal portfolios\n\n\nSub-groups\n\n\n\nCommand &amp; Conquer: Tiberium universe\n\nCommand &amp; Conquer: Red Alert universe\n\nCommand &amp; Conquer: Generals universe\n\nUnofficial add-ons for Command &amp; Conquer games\n\n\nRelated sites\n\n\n\nPlanet CnC (archived -2019)\n",
+            "group_id": 66,
+            "group_name": "Command & Conquer franchise"
+        },
+        {
+            "group_description": "Games that uses the licensed name or likeness of Buck Rogers; a fictional character created by Philip Francis Nowlan. Anthony (Buck) Rogers first appeared in Armageddon 2419 A.D novella in the August 1928 issue of the Amazing Stories magazine.\n\nRelated Game Groups\n* Inspiration: Comics Inspiration: Movies Inspiration: TV series",
+            "group_id": 67,
+            "group_name": "Buck Rogers games"
+        },
+        {
+            "group_description": "Tomb Raider is a series of action games with platforming and puzzle-solving elements, featuring a recurrent heroine, an archaeologist named Lara Croft. Most of the games in the series involve Lara traversing complex and hazardous locations, solving environmental puzzles and using abilities such as jumping and climbing to access new areas. Lara's trademark weapons are twin pistols with unlimited ammunition; however, she can usually find other weapons and items to help her deal with enemies.\n\nThe first game in the series appeared in 1996; building upon the concept of early Prince of Persia games, it is considered one of the progenitors of 3D platformers. The game was followed by numerous sequels and additional versions for handheld and mobile systems, as well as compilations. Lara and the games' backgrounds have since been adapted into three major Hollywood movies, which starred Angelina Jolie and Alicia Vikander as the main actresses.\n\nAwards\n\nPC Player (Germany)\n\nIssue 01/1998 - Babe of the Year 1997 (for Lara Croft)\n\nRelated links\n\nTomb Raider Portal - Individual sites for the UK, United States, Germany, France, Italy and Germany;\n\nLara Croft's Legacy: Moving Tomb Raider Forward - Interview with Eric Lindstrom about the series on Gamasutra (5th September 2008).\nFansites\n\nPlanet Lara\n\nStella's Tomb Raider Site\n\nTomb Raider Chronicles\n\nTomb Raider Inc.\nTrivia\n\nAn early console title in the series is featured in the French film Le premier jour du reste de ta vie (2008)",
+            "group_id": 68,
+            "group_name": "Tomb Raider franchise"
+        },
+        {
+            "group_description": null,
+            "group_id": 69,
+            "group_name": "N.I.C.E. series"
+        },
+        {
+            "group_description": "Any game that contains characters, locations, or situations licensed from the Star Wars franchise. \n\nCreated by George Lucas, rights to the franchise are currently held by the Walt Disney Company as of October 2012, with the purchase of Lucasfilm Limited, LLC. With the exception of Episode IV: A New Hope, an original film, where the rights are owned by 20th Century Fox, as well as holding the rights to Episodes I–III, V, and VI until May 2020.\n\nTrivia\n\nKnown cancelled games\n\n\n\nStar Wars: Ewok Adventure was planned to be released by Parker Brothers for the Atari 2600 in 1983 but was cancelled. However a prototype of the game still exists.\n\nHal Barwood, the game designer behind titles such as Indiana Jones and the Fate of Atlantis, had an idea of a Star Wars adventure game that \"was going to involve a lot of very expensive pre-rendered 3D sets\", but since Grim Fandango (also utilizing a lot of pre-rendered sets) was already in development at LucasArts, the president of the company felt uneasy about doing two games that way and the idea was buried.\n\nA third-person action-adventure game titled Star Wars: 1313 was in development in the early 2010s, and was revealed publicly at E3 2012. The game was cancelled when LucasArts' development team was closed by The Walt Disney Company on 3 April 2013.\n\nA first-person shooter with a Mandalorian protagonist was in development by Respawn Entertainment in the early 2020s, but was cancelled on 28 February 2024.\n\n\nTrivia contributed by Swordmaster.\n\nSub-groups\n\n\n\nLEGO Star Wars series\n\nRespawn's Star Wars: Jedi series\n\nStar Wars canon\n\nStar Wars: Battlefront series\n\nStar Wars: Dark Forces / Jedi Knight series\n\nStar Wars: Empire at War series\n\nStar Wars: Galactic Battlegrounds series\n\nStar Wars: Galaxies series\n\nStar Wars: Knights of the Old Republic series\n\nStar Wars: Racer series\n\nStar Wars: Rebel Assault series\n\nStar Wars: Rogue Squadron series\n\nStar Wars: Starfighter series\n\nStar Wars: The Clone Wars games\n\nStar Wars: The Force Unleashed series\n\nStar Wars: The Old Republic games\n\nStar Wars X-Wing / TIE Fighter series\n\nSuper Star Wars series\n\nUnofficial Star Wars games\n\n\nRelated Links\n\n\n\nStar Wars official site\n\nWikipedia: Star Wars\n",
+            "group_id": 70,
+            "group_name": "Star Wars licensees"
+        },
+        {
+            "group_description": null,
+            "group_id": 71,
+            "group_name": "Skate or Die series"
+        },
+        {
+            "group_description": "The landmark SSI \"Gold Box\" Advanced Dungeons and Dragons series, often considered the Tyranthraxus series on account of a recurring antagonist, these games took place in the Forgotten Realms campaign setting. Characters could be imported from earlier games, growing in skill as the series progressed. Several (but not all) of the games had cross-promotional role-playing module and novel tie-ins, boosting sales all around.\n\nIncluded in the group for thematic purposes is UbiSoft's revisitation to the Pool of Radiance series locales of Phlan and Myth Drannor 13 years after it first hit the gaming scene -- a sequel to the original game in setting but not in plot or gameplay.",
+            "group_id": 72,
+            "group_name": "Pool of Radiance series"
+        },
+        {
+            "group_description": "Any game that is produced under or based on the official Dungeons &amp; Dragons (D&amp;D) or Advanced Dungeons &amp; Dragons (AD&amp;D) brands and is officially licensed under them.\n\nTraditional gameplay usually consists of a group of characters (called a party) who are joined together to battle together toward common goals (called quests), although many adaptations may not follow this rule. Movement, combat, and character attributes are often calculated using algorithms that simulate rolling dice.\n\nThe D&amp;D/AD&amp;D rules have been updated and revised several times and recent video games typically incorporate the most current version of the rules.\n\nRelated game groups for individual campaign settings\n\n\n\nDungeons &amp; Dragons Campaign Setting: Dark Sun\n\nDungeons &amp; Dragons Campaign Setting: Dragonlance\n\nDungeons &amp; Dragons Campaign Setting: Eberron\n\nDungeons &amp; Dragons Campaign Setting: Forgotten Realms\n\nDungeons &amp; Dragons Campaign Setting: Greyhawk\n\nDungeons &amp; Dragons Campaign Setting: Mystara\n\nDungeons &amp; Dragons Campaign Setting: Ravenloft\n\n\nAdditional campaign settings exist, having only been used as background for individual games: Planescape, Spelljammer, Birthright and Al-Qadim. The 3DO and Intellivision games' settings remains unclear, licensing the AD&amp;D rules (or at least its brand) without necessarily making use of its campaign worlds.\n\nSub-series\n\n\n\nBaldur's Gate series\n\nDragonlance / Krynn series\n\nEye of the Beholder series\n\nGold Box series\n\nIcewind Dale series\n\nNeverwinter Nights series\n\nPool of Radiance series\n\nSavage Frontier series\n\nSilver Box series\n",
+            "group_id": 73,
+            "group_name": "Dungeons & Dragons (D&D / AD&D) licensees"
+        },
+        {
+            "group_description": "This series is based on the Forgotten Realms campaign setting of Dungeons &amp; Dragons (D&amp;D). The Savage Frontier is a region of the subcontinent of Faerûn. It is situated west of the Silver Marches and east of the Sword Coast.",
+            "group_id": 74,
+            "group_name": "Savage Frontier series"
+        },
+        {
+            "group_description": "A series of fantasy strategy games originally developed by Bungie Studios. When the company was acquired by Microsoft in 2000, Take-Two Interactive Software, Inc. acquired the rights.",
+            "group_id": 75,
+            "group_name": "Myth series"
+        },
+        {
+            "group_description": "MicroProse's series of human \"eXtraterrestrial COMbat units\" fighting against alien invaders, initially in turn-based tactical squad combat on land and underwater, and eventually in other gameplay styles and environments and from other perspectives.\n\nThe last game in the original series was X-COM: Enforcer in 2001. The series was revived in April 2010 when 2K Games announced a new title based on the franchise. The series' name would from then on be stylized as XCOM instead of X-COM.",
+            "group_id": 76,
+            "group_name": "X-COM series"
+        },
+        {
+            "group_description": "Titus' pair of platform games see the player controlling a hungry caveman in search of food while fending off anachronistic prehistoric animals.",
+            "group_id": 77,
+            "group_name": "Prehistorik series"
+        },
+        {
+            "group_description": "Any game based on and/or officially licensed under the Wizards of the Coast's Magic: The Gathering card game.",
+            "group_id": 78,
+            "group_name": "Magic: The Gathering games"
+        },
+        {
+            "group_description": null,
+            "group_id": 79,
+            "group_name": "Dungeon Keeper series"
+        },
+        {
+            "group_description": "Any game that is based on or an official licensee of the Indiana Jones character featured in the Raiders of the Lost Ark series of movies.\n\nRelated Game Groups\n\n\n\nIndiana Jones fangames\n\n\nRelated links\n\n\n\nIndiana Jones and the History of His Videogames (overview of the different games and adaptations from 1982 to 2008).\n",
+            "group_id": 80,
+            "group_name": "Indiana Jones licensees"
+        },
+        {
+            "group_description": "Any games bearing the gameplay or likeness of the classic board game Risk.\n\nRelated game groups:  \n\n\n\nRisk licensees\n",
+            "group_id": 81,
+            "group_name": "Genre: Board game - Risk"
+        },
+        {
+            "group_description": "Games based upon the the Stauf Mansion and the owner, Henry Stauf, who engaged in a Faustian deal.",
+            "group_id": 82,
+            "group_name": "The 7th Guest series"
+        },
+        {
+            "group_description": "All Pinball games produced/published by 21st Century Entertainment, including those developed by Frontline Design, SpiderSoft, and possibly other developers.",
+            "group_id": 83,
+            "group_name": "21st Century Entertainment Pinball series"
+        },
+        {
+            "group_description": "In the mid to late 1980s, Epyx went on a spree of taking games that were successful for other european home personal computers and republishing them in the USA, porting some of them to other platforms in the process.  Most of these games had similar and/or related gameplay, relying on a mixture of exploration, problem-solving, and action.  They marketed these games under the Maxx Out! Series moniker.",
+            "group_id": 84,
+            "group_name": "Maxx Out! series"
+        },
+        {
+            "group_description": "A series of Epyx titles that took the basic gameplay of famous sports, but set them in unusual places. Hazards and debris have to be avoided in play.",
+            "group_id": 85,
+            "group_name": "Epyx Street Sports series"
+        },
+        {
+            "group_description": "Settlers is a series of managerial strategy games introduced by German game developer Bluebyte Studio GmbH where the focus of the game is resource management, construction and expansion in order to advance in the game.\n\nThe basic story usually revolves around a tribe (or nation) trapped in an unknown land trying to find their way back home while battling other tribes or nations for resources, land and access (gateways) leading them closer to their homeland.",
+            "group_id": 86,
+            "group_name": "The Settlers series"
+        },
+        {
+            "group_description": "This group includes the main Mortal Kombat series of versus fighting games, as well as spin-offs that deviate from that genre (e.g. Mortal Kombat Mythologies: Sub-Zero). Almost exclusively developed by Midway, the games place an emphasis on over-the-top blood and gore, as well as brutal finishing moves. In its 2D days the series was also known for its use of digitized actors; this style has been abandoned with the series' switch to 3D.\n\nIn July 2009, the Mortal Kombat intellectual property rights were acquired by Warner Bros.",
+            "group_id": 87,
+            "group_name": "Mortal Kombat franchise"
+        },
+        {
+            "group_description": "Ultima series contains all main (numbered) Ultima RPGs. They are set mainly in a fictional medieval Europe-like world called Britannia, and are connected by the same protagonist, a nameless person from the Earth, who in Ultima IV becomes the Avatar, an incarnation of virtue. One of the most influential RPG series, Ultima games are notable for open-ended gameplay, detailed interaction, and in-depth morality system. \n\nStory\n\nCreated by Richard Garriott and developed by Origin, the series has undergone several phases, also known as Ages. Each Age is a trilogy of games connected by common main creative ideas and overarching story. \n\nThe Age of Darkness encompasses the first three games of the series (sometimes also counting their precursor  Akalabeth). The protagonist is referred to as \"Stranger\"; similarly to other role-playing game heroes, his goal is to stop an evil antagonist and save the world. The land which the Stranger liberates in the first and third game (the second one takes place on the Earth) is called Sosaria.\n\nThe Age of Enlightenment is seen by many as the turning point of the series, where its characteristic philosophy and design goals were manifested for the first time. The remnants of Sosaria have become a new world named Britannia, ruled by the benevolent monarch Lord British, and sustained by the Eight Virtues derived from the combination of the Three Principles: Love, Truth, and Courage. The fourth game is dedicated entirely to the Stranger's quest to become the Avatar, an incarnation of these virtues. The fifth sees the virtues misinterpreted and twisted by the tyrant Blackthorn; the Avatar must rescue the imprisoned Lord British and restore the virtues to their original meanings. In the sixth game, the Avatar is to find a way to make peace between the inhabitants of Britannia and the race of gargoyles.\n\nThe final age of Ultima is called The Age of Armageddon; it is also known as The Guardian Saga. The seventh game introduces a new enemy of Britannia, a mysterious and powerful being known as the Guardian. The second part of the seventh game is set on Serpent Isle, another remnant of Sosaria; tracking down the leaders of a dangerous organization called The Fellowship, the Avatar learns the history and the ethical principles of the new world. The eighth game takes the Avatar to a hostile world called Pagan, controlled by the Guardian. Finally, in the ninth and last installment of the series, the Avatar returns to Britannia to defeat the Guardian once and for all.\n\nGameplay\n\nThe gameplay of the series has undergone significant changes during its course. Traditionally, Ultima games used turn-based combat with free movement on the battle field, and a leveling system similar to other role-playing games (the highest level usually being 8). Conversations with NPCs were carried out by typing key words. Characters who joined the hero's party for personal reasons (rather than being created by the player or hired as mercenaries in the game world) were one of the innovations implemented in Ultima IV; it also featured for the first time the characteristic spellcasting system based on mixing reagents. Ultima V introduced a higher level of interactivity with visible objects, and Ultima VI pioneered in creating a seamless world, with towns and wilderness areas integrated into a graphically homogeneous whole. Ultima games were open-ended up to that point; objectives could be accomplished in any order by carefully and meticulously gathering information from the world's inhabitants and finding crucial objects required to complete the quest.\n\nUltima VII introduced real-time combat with automated actions for party members, as well as physical (drag-and-drop) interaction with the world. Non-linear accomplishment of objectives was integrated as well. The game's second part, Serpent Isle, retained all of its gameplay features, but opted for a significantly more linear story development. Ultima VIII was perhaps the most drastic change in the series gameplay-wise, abandoning the party-based combat of earlier games in favor of action RPG mechanics, including the abilities to jump and climb. Ultima IX reduced role-playing elements even further, but enhanced the interaction with the environment by implementing 3D graphics and adding the ability to swim to the other physical activities.\n\nThe series has spawned many spin-offs, most notable of them being the two first-person 3D RPGs that formed the Ultima Underworld series. All these spin-offs are included in the Ultima Universe group.\n\nAwards\n\n\n\nComputer Gaming World\n\n\nNovember 1996 (15th anniversary issue) – #6 Most Memorable Game Hero (The Avatar)\n\nNovember 1996 (15th anniversary issue) – #3 Most Memorable Game Villain (The Guardian)\n\n\n",
+            "group_id": 88,
+            "group_name": "Ultima series"
+        },
+        {
+            "group_description": "Wing Commander spin-off games which add mercenary gameplay mechanics to the original space-sim formula and aim towards a more open-ended, exploratory gameplay experience.",
+            "group_id": 89,
+            "group_name": "Privateer series"
+        },
+        {
+            "group_description": "Games based on the \"Micro Machines\" toy franchise which consist of   really small-scaled toy cars.",
+            "group_id": 90,
+            "group_name": "Micro Machines licensees"
+        },
+        {
+            "group_description": "Worms is a series of games featuring an armed to the teeth band of worms with an attitude. Almost all the games in the series are tactical artillery games, where players take turns to destroy their opponent using a group of worms and a plethora of imaginative weapons.",
+            "group_id": 91,
+            "group_name": "Worms series"
+        },
+        {
+            "group_description": "Any game that is directly descended from the Carmageddon line of games.",
+            "group_id": 92,
+            "group_name": "Carmageddon series"
+        },
+        {
+            "group_description": "Electronic Arts' long-running series of racing games.\n\nIn October 2009 Electronic Arts announced that the Need for Speed franchise had sold over 100 million units since it was first launched in 1994, generating over $2.7 billion in worldwide sales.\n\nSub-Groups\n\n\n\nUnofficial add-ons for Need for Speed series\n",
+            "group_id": 93,
+            "group_name": "Need for Speed series"
+        },
+        {
+            "group_description": null,
+            "group_id": 94,
+            "group_name": "MicroProse Stealth Fighter series"
+        },
+        {
+            "group_description": "EcoQuest is a series of adventure games by Sierra, their common protagonist being a young boy named Adam Greene, the son of a renowned ecologist. The games are similar to other Sierra adventure games in their visual style and icon-based interface; additionally, they contain educational material and have a somewhat lower difficulty level.",
+            "group_id": 95,
+            "group_name": "EcoQuest series"
+        },
+        {
+            "group_description": "Denotes any game that bears the licensed likeness of Bruce Lee.",
+            "group_id": 96,
+            "group_name": "Bruce Lee licensees"
+        },
+        {
+            "group_description": null,
+            "group_id": 97,
+            "group_name": "Shivers series"
+        },
+        {
+            "group_description": "Bullfrog's original genre-making suite of \"god games\", allowing the player to facilitate the growth and spread of their primitive tribe with miraculous assistance as might a benevolent god (or to thwart and restrain the movements of rival tribes as might the vengeful god of an opposing people).",
+            "group_id": 98,
+            "group_name": "Populous series"
+        },
+        {
+            "group_description": "All games produced under the Wing Commander universe.",
+            "group_id": 99,
+            "group_name": "Wing Commander universe"
+        },
+        {
+            "group_description": "All games created directly under, related to, or spun off from the Might and Magic title.\n\nSub-groups\n\n\n\nMight and Magic series (mainline RPG titles)\n\nHeroes of Might and Magic series (turn-based strategy)\n\n\nHeroes Chronicles series (spin-off singleplayer campaigns)\n\n\n\nMight &amp; Magic: Clash of Heroes series (puzzle/RPG)\n",
+            "group_id": 100,
+            "group_name": "Might and Magic universe"
+        },
+        {
+            "group_description": "Games produced by Electronic Arts that competed in an indirect way with Maxis' Sim series of simulations. (Electronic Arts later purchased Maxis outright.)",
+            "group_id": 101,
+            "group_name": "Electronic Arts' Theme series"
+        }
+    ]
+}
