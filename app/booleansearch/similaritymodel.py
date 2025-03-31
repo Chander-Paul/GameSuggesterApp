@@ -1,5 +1,6 @@
 
 import nltk
+import re
 from gensim.models import FastText, KeyedVectors
 from gensim.parsing.preprocessing import remove_stopwords, preprocess_string
 from bs4 import BeautifulSoup
@@ -23,7 +24,7 @@ def preprocess(data):
 
 
 def create_model(data, file_name, parameters):
-    model = FastText(sentences=data, vector_size=100, window=5, min_count=1, workers=4)
+    model = FastText(sentences=data, parameters=parameters)
     model.save(file_name)
 
     return model
@@ -35,11 +36,11 @@ def load_model(file_name):
 def update_model(file_path, model_path, data, parameters):
     docs = data
     words = preprocess(docs)
-    model = FastText.train(model_path, sentences = docs, params=parameters)
+    model = FastText.train(model_path, sentences = docs, parameters=parameters)
     return model
 
 def load_vectors(file_path):
-    vector_path= file_path #"models/fasttextsimilarity.model"
+    vector_path= file_path 
     return KeyedVectors.load(vector_path, mmap='r')
 
 def save_vectors(model, file_path):
@@ -53,14 +54,14 @@ def get_most_similar_keywords(model, keyword, data):
 
 
 
-#See alternative words.
+##Find Compare the User Generated Keys to the Mobygames Keys
 def most_similar_to_given_ranked(word_vectors, key1, keys_list, n):
     #Get the `key` from `keys_list` most similar to `key1`
 
     relevant_keys = []
     relevant_kays_list = []
     for key in keys_list:
-        relevant_keys.append(word_vectors.similarity(key1, key))
+        relevant_keys.append(word_vectors.similarity(re.sub(r'[^A-Za-z0-9]+', '', key1.lower()), re.sub(r'[^A-Za-z0-9]+', ' ', key.lower()) ))
     indices = flip(argsort(relevant_keys))
     i=0
     for index in indices:

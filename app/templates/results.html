@@ -5,9 +5,43 @@
     {% endblock %}
     
     {% block content %}
+    <h2>Results</h2>
+    <p>Based on your preferences we identified some genres you might like</p>
+    Filters: 
+        
+        {% for key in filters %}
+        <li>           
+            {% if key.negation %}
+                Exclude: 
+            {% endif %}
+            {{ key.gamekeyword }}</li>
+            
+        </li>    
+        {% endfor %}
+    
+    </ul>
+    <p>Here are some recommendations</p>
     <ul>
         {% for game in games %}
-            <li><a href="{{ game.moby_url }}">{{ game.title }}</a></li>
+            <li><a href="{{ game.moby_url }}">{{ game.title }}</a>
+                
+                <ul>
+                    <img src="{{ game.sample_cover.image }}" alt="{{ game.title }} cover" style="max-width: 200px; max-height: 200px;">
+                    <li>Release Date: {{ game.platforms[0].first_release_date }}</li>
+                    <li>Genres:  
+                        {% for genre in game.genres %}
+                            {{ genre.genre_name }}, 
+                        {% endfor %}
+                    </li>
+                    <li>Platforms:  
+                        {% for platform in game.platforms %}
+                            {{ platform.platform_name }},
+                        {% endfor %}
+                    </li>
+                    <li>{{ game.description }}</li>
+                </ul>
+            </li>
+            
         {% endfor %}
     </ul>
     {% endblock %}

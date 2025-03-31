@@ -1,10 +1,6 @@
-###Remember to add to github DONT FORGET
-##ADD A GITHUB NOW
-from flask import Flask, render_template, request##, jsonify
+from flask import Flask, render_template, request
 from flask.views import View
-#from flask_cors import CORS
-#from flask_sqlalchemy import SQLAlchemy
-#from flask_marshmallow import Marshmallow
+
 
 import os
 import sys
@@ -23,22 +19,13 @@ def index():
 def results():
     if request.method =='POST':
         input = request.form['game_input']
-        ##games = search_games(input)
-        games ={
-                "games": [
-                    {
-                    "game_id": 23,
-                    "moby_url": "https://www.mobygames.com/game/23/the-ancient-art-of-war/",
-                    "title": "The Ancient Art of War"
-                    },
-                    {
-                    "game_id": 156,
-                    "moby_url": "https://www.mobygames.com/game/156/dungeon-keeper/",
-                    "title": "Dungeon Keeper"
-                    }
-                ]
-        }
-        return render_template('results.html', games = games["games"])
+        results = search_games(input)
+        games = results[0]
+        filters = results[1]
+
+        if not games:
+            return render_template('index.html', input = input, filters = filters)
+        return render_template('results.html', games = games, input = input, filters = filters)
     return render_template('index.html')
 
 

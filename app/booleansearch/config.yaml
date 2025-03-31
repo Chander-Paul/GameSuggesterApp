@@ -1,0 +1,5 @@
+﻿"file": "app/booleansearch/config.yaml"
+api_key: "moby_uh7IolRAIDCHkSXaBYQatS1Y9ko"
+data_path: 'booleansearch/data'
+model_path: 'booleansearch/models'
+model_name: 'fasttext.model'

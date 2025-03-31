@@ -1,8 +1,12 @@
 from bs4 import BeautifulSoup
-#from nltk.tree import ParentedTree
-
+import re
 import spacy
+from helper import load_text
 from spacy.matcher import Matcher
+import pathlib
+from config import config
+
+
 
 def preprocess(text):
     text = BeautifulSoup(text, "lxml").text
@@ -11,8 +15,10 @@ def preprocess(text):
     nlp = spacy.load("en_core_web_sm")
     nlp.add_pipe("merge_entities")
     nlp.add_pipe("merge_noun_chunks")
-    
+    text = re.sub(r'[^A-Za-z0-9 ,.\']+', ' ', text)
     doc = nlp(text)
+
+
     return doc
 
 def print_dependency_tree(doc):
@@ -37,22 +43,28 @@ def create_noun_chunks(doc):
     conjunctions = []
     #filter on chunks from spacy noun chunks ignoring pronouns.
     for chunk  in doc.noun_chunks:
-        if "PRON" not in  [t.pos_ for t in chunk] and chunk:
+        if "PRON" not in  [t.pos_ for t in chunk] and   chunk and chunk.text.lower():
             neg_adverbs =[]
             conjunctions =[]
-            
+            extentions =[]
+
             ##For all tokens to the left of the token in dependency tree identify negative adverbs and store for later
             if chunk.root.dep_ :
-                for w in chunk.root.head.lefts:
+                for w in chunk.root.head.head.head.lefts:
                     if w.dep_ == "neg":
                         neg_adverbs.append([doc[w.left_edge.i:w.right_edge.i+1]])
 
                ##For all the tokens to the right of the token identify conjunctions and store for later
                 for w in chunk.root.head.rights:
+
+                    extentions.append(doc[w.left_edge.i:w.right_edge.i+1])                  
+                    if w.dep_ == "neg":
+                        neg_adverbs.append([doc[w.left_edge.i:w.right_edge.i+1]])
+
                     if w.conjuncts:
                         conjunctions.append(doc[w.left_edge.i:w.right_edge.i+1])
-            
-            chunks.append([chunk.text.replace('games',''), neg_adverbs, conjunctions])
+            chunks.append([chunk.text, neg_adverbs, conjunctions,extentions])
+
     return chunks
 
 def create_verb_chunks(doc):
@@ -62,53 +74,56 @@ def create_verb_chunks(doc):
             neg_adverbs =[]
             conjunctions =[]
             phrase =None
-            for w in chunk.head.lefts: 
-                if w.dep_ == "neg":
-                    neg_adverbs.append(doc[w.left_edge.i:w.right_edge.i+1])
-            for w in chunk.rights:
-                if w.conjuncts:
-                    conjunctions.append(doc[w.left_edge.i:w.right_edge.i+1])
-                if w.dep_ in ('dobj','pobj'):
+            extentions = []
+            if chunk.dep_ :
+                for w in chunk.head.lefts:
+                    if w.dep_ == "neg":
+                        neg_adverbs.append([doc[w.left_edge.i:w.right_edge.i+1]])
+
+               ##For all the tokens to the right of the token identify conjunctions and store for later
+                for w in chunk.head.rights:
+                    extentions.append(doc[w.left_edge.i:w.right_edge.i+1])
+                    if w.dep_ == "neg":
+
+                        neg_adverbs.append([doc[w.left_edge.i:w.right_edge.i+1]])
+   
+
+
+                    if w.conjuncts:
+                        conjunctions.append(doc[w.left_edge.i:w.right_edge.i+1])
+            
+            
                     phrase = doc[w.left_edge.i:w.right_edge.i+1]
-            chunks.append([chunk.text, neg_adverbs, conjunctions])
+            chunks.append([chunk.text, neg_adverbs, conjunctions, extentions])
     return chunks
 
 
 def  generate_query(chunks):
     query= []
+    path = str( pathlib.Path().resolve())
+    stop_words = load_text(path+"/"+ config['data_path']+"/"+'english.txt')
+
+    ##Remove stopwords and overrepresented words such as "Games" "Play"
+    negatives= []
 
     for chunk in chunks:
-        query.append(
-            {'keyword': chunk[0],
-             'negation': chunk[1],
-             'relation': chunk[2]
-            }
-        )
+        negatives.append([token.text.replace(chunk[0],'') for token in chunk[3] if chunk [1] ])
+    for chunk in chunks:
+        tokens = chunk[0].split()
+        tokens = [token for token in tokens if token.lower() not in stop_words]
+        chunk[0] = ' '.join(str(token) for token in tokens)
+
+        if chunk[0].replace(' ','') !='':
+            for token in negatives:
+                for word in token:
+                    if chunk[0] in word:
+                        chunk[1] = 'not'
+                        break
+            query.append(
+                {'keyword': chunk[0].lower(),
+                'negation': chunk[1],
+                'relation': chunk[2]
+                }
+            )
     return query
 
-
-##Extract collective nouns and longer verb phrases
-def console_matcher(doc):
-    # Initialize the matcher with the shared vocab
-    matcher = Matcher(doc.vocab)
-    
-    #Create grammer
-    patterns = [
-        {"label": "CN", "pattern": [{"POS": "NOUN"}, {"POS": "ADP"}, {"POS": "NOUN"}]},
-        {"label": "VP", "pattern": [{"POS": "VERB"}, {"POS": "NOUN", "OP": "?"}, {"POS": "ADP", "OP": "?"}, {"POS": "PART", "OP": "?"}, {"POS": "VERB", "OP": "?"}]},
-        {"label": "AP", "pattern": [{"POS": "ADV"}, {"POS": "NOUN", "OP": "?"}, {"POS": "VERB", "OP": "?"}]}
-    ]
-
-    for pattern in patterns:
-        matcher.add(pattern["label"], [pattern["pattern"]])
-    
-    # Apply the matcher to the doc
-    matches = matcher(doc)
-    
-
-    chunks = []
-    for match_id, start, end in matches:
-        if doc.vocab.strings[match_id] in ('VP', 'CN'):
-            span = doc[start:end]
-            chunks.append((doc.vocab.strings[match_id], span))
-    return chunks

@@ -1,5 +1,7 @@
 import json
 import csv
+
+
 def load_json(file_path):
     with open(file_path, 'r', encoding='utf8') as file:
         data = json.load(file)
@@ -22,3 +24,7 @@ def load_csv(file_path):
         data = [row for row in reader]
     return data
 
+def load_text(file_path):
+    with open(file_path, 'r', encoding='utf8') as file:
+        data = file.readlines()
+    return [row.strip() for row in data]

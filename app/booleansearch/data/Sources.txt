@@ -1,0 +1,1 @@
+Additional stop-words: https://github.com/Alir3z4/stop-words/blob/master/english.txt

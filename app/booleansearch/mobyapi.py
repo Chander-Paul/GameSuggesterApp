@@ -2,10 +2,13 @@ import requests
 import json
 import urllib.parse
 from helper import load_csv, load_json
+import pathlib
+path = pathlib.Path().resolve()
+import config
 
 
 api_url = 'https://api.mobygames.com/v1'
-api_key = urllib.parse.quote_plus('moby_uh7IolRAIDCHkSXaBYQatS1Y9ko')
+api_key = urllib.parse.quote_plus(config.config['api_key'])
 
 def get_data(endpoint, params):
     params["api_key"]=  api_key
@@ -14,14 +17,15 @@ def get_data(endpoint, params):
         print(f"Error: {response.status_code}")
     return response.json()
 
-def get_games(genres=None, groups=None, platforms=None, format='brief'):
+def get_games(genres=None, groups=None, platforms=None, format='normal', limit=10):
     endpoint = "/games"
     params = {
         "api_key": api_key,
         "genre" : genres,
         "group" : groups,
         "platform" : platforms,
-        "format" : format
+        "format" : format,
+        "limit" : limit
     }
     response= requests.get(api_url+endpoint, params=params)
     if response.status_code != 200:
@@ -29,7 +33,7 @@ def get_games(genres=None, groups=None, platforms=None, format='brief'):
     return response.json()
 
 
-def get_games_url(genres=None, groups=None, platforms=None,titles=None, format='id'):
+def get_games_url(genres=None, groups=None, platforms=None,titles=None, format='normal'):
     endpoint = "/games"
     params = {
         "api_key": api_key,
@@ -48,16 +52,19 @@ def get_games_url(genres=None, groups=None, platforms=None,titles=None, format='
 def load_tags(tagtype):
         taglist=[]
         #load genres
-        file_path = 'booleansearch/data/'+tagtype+'s.json'
-        if tagtype == 'groups':
-            data = load_csv(file_path)
+        if tagtype == 'group':
+            file_path = str(path)+'/booleansearch/data/'+tagtype+'s.csv'
+            data = {tagtype+'s':[] }
+            data[tagtype+'s'] = load_csv(file_path)
+            
         else:
-            data =load_json(file_path)
-
-        for genre in data[tagtype+'s']:
+            file_path = str(path)+'/booleansearch/data/'+tagtype+'s.json'
+            data = load_json(file_path)
+       
+        for tag in data[tagtype+'s']:
             taglist.append(
-                {'tag' : genre[tagtype+'_name'], 
-                 'id'  : genre[tagtype+'_id'],
+                {'tag' : tag[tagtype+'_name'], 
+                 'id'  : tag[tagtype+'_id'],
                 'type': tagtype
                 }
             )
